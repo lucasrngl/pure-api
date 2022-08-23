@@ -5,7 +5,7 @@ const routes = {
   default: (request, response) => {
     response.writeHead(404, { 'content-type': 'application/json' });
     response.write('Not found');
-    response.end();
+    return response.end();
   },
 };
 
