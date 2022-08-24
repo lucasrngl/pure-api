@@ -1,4 +1,5 @@
 import { parse } from 'node:url';
+import peopleRoute from './routes/index.js';
 
 const routes = {
   ...peopleRoute,
